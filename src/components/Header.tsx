@@ -8,7 +8,7 @@ interface HeaderProps {
   title: string;
 }
 
-const Header: React.FC<HeaderProps> = ({ title = "Portfolio"}) => {
+const Header: React.FC<HeaderProps> = () => {
   return (
     <header className='py-8 xl:py-12 text-white'>
       <div className='container mx-auto flex justify-between items-center'>
